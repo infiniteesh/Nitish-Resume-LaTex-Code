@@ -1,0 +1,172 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{#1 \vspace{-2pt}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{\item\begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}\small#1 & \textbf{\small #2}\end{tabular*}\vspace{-7pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Nitish Kumar Gupta} \\ \vspace{1pt}
+    Greater Noida, UP \\ \vspace{1pt}
+    \small \href{tel:#}{\raisebox{-0.1\height}\faPhone\ \underline{+91-9839484797}} ~ \href{mailto:sendatnitish@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{sendatnitish@gmail.com}} ~ 
+    \href{https://linkedin.com/in/infiniteesh}{\raisebox{-0.2\height}\faLinkedinSquare\ \underline{Linkedin}}  ~
+    \href{https://github.com/infiniteesh}{\raisebox{-0.2\height}\faGithub\ \underline{Github}} ~
+    \href{https://youtube.com/infiniteesh}{\raisebox{-0.2\height}\faYoutube\ \underline{Youtube}} ~
+\end{center}
+\vspace{-8pt}
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {G.L. Bajaj Institute of Technology and Management, Greater Noida}{2021 – 2025}
+      {B.Tech - Computer Science and Engineering (Artificial Intelligence) - \textbf{CGPA} - \textbf{8.0}}{Greater Noida, Uttar Pradesh}
+    \resumeSubheading
+      {ST. Xavier's School, Ballia}{2019}
+      {10th CBSE Board - \textbf{93\%}}{Ballia, Uttar Pradesh}
+    \resumeSubheading
+      {ST. Xavier's School, Ballia}{2021}
+      {10+2 CBSE Board - \textbf{77\%}}{Ballia, Uttar Pradesh}
+\resumeSubHeadingListEnd
+
+%------SKILLS-------
+\section{SKILLS}
+\begin{multicols}{3}
+    \begin{itemize}[itemsep=-2pt, parsep=5pt]
+        \item Problem Solving
+        \item DSA
+        \item DBMS
+        \item App Development
+        \item AI
+        \item Digital Content Creation
+        \item Social Media Marketing
+        \item Video Editing
+        \item Communication
+        \item Leadership
+        \item Organizational Skills
+        \item Teamwork
+        \item CRM
+    \end{itemize}
+\end{multicols}
+\vspace*{2.0\multicolsep}
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+\resumeSubHeadingListStart
+    \resumeProjectHeading
+        {\href{https://github.com/infiniteesh/heart-disease-prediction-using-python}{\textbf{\large{\underline{Heart Disease Prediction System using Python}}}} $|$ \large{\underline{Logistic Regression, Machine Learning}}}{}
+        \resumeItemListStart
+            \resumeItem{Used logistic regression in machine learning to develop a model capable of predicting whether an individual is suffering from heart disease or not.}
+        \resumeItemListEnd 
+    \resumeProjectHeading
+        {\href{https://github.com/infiniteesh/own_compiler}{\textbf{\large{\underline{IDE for Python}}}} $|$ \large{\underline{Python, IDE Development}}}{}
+        \resumeItemListStart
+            \resumeItem{Developed a lightweight IDE tailored for Python programs.}
+        \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%------TECHNICAL SKILLS-------
+\section{TECHNICAL SKILLS}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \item{\textbf{Languages:} C, C++, Python, SQL, Dart}
+    \item{\textbf{Technologies/Frameworks:} HTML, CSS, Flutter}
+    \item{\textbf{Developer Tools:} VS Code, PyCharm, Google Colab, Photoshop, Canva}
+\end{itemize}
+\vspace{-15pt}
+
+%-----------EMPLOYMENT HISTORY-----------
+\section{EMPLOYMENT HISTORY}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {CMO at Dream Provider Pvt. Ltd}{2022 – 2024}
+      {}{\textbf{2022 – 2024} \hspace{0.5cm} Collaborated and worked closely with founders and CTO to lead marketing campaigns, social media marketing, app and website layout, recruit interns. Gained over 20k+ app downloads and followers, and made it visible to lakhs of students.}
+    \resumeSubheading
+      {Offline Ticket Partner at Wink Entertainment Llp}{2022 – Present}
+      {}{\textbf{2022 – Present} \hspace{0.5cm} Promoted and sold out 300+ tickets of EDM music festivals nationwide leveraging social media, yielding profit.}
+\resumeSubHeadingListEnd
+
+%-----------CODING PLATFORMS-----------
+\section{CODING PLATFORMS}
+\resumeSubHeadingListStart
+    \resumeItemListStart
+        \resumeItem{Solved 50+ Questions on Leetcode. \href{https://leetcode.com/infiniteesh/}{\raisebox{-0.1\height}\faExternalLink}}
+        \resumeItem{4* in Problem Solving on Hackerrank C++. \href{https://www.hackerrank.com/profile/nitishguptamyse1}{\raisebox{-0.1\height}\faExternalLink}}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------EXTRA CURRICULAR-----------
+\section{EXTRA CURRICULAR}
+\resumeSubHeadingListStart
+    \resumeItemListStart
+        \resumeItem{Social Media Content Creator \& Blogger: YouTube 2k+ Subscribers. Uploaded college vlogs and created a community of 3000+ students, mentoring them as a senior through their college journey.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\end{document}
